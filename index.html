@@ -1,25 +1,252 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>New Shalimar Tailor</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Shalimar Tailors</title>
+
 <style>
-body{font-family:Arial;text-align:center;background:#111;color:white;padding:40px}
-h1{color:gold}
-.button{background:gold;color:black;padding:10px 20px;text-decoration:none;border-radius:5px}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f8f8f8;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1521572267360-ee0c2909d518');
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:1.2rem;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#222;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.why{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.box{
+background:white;
+padding:20px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact{
+background:#111;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:2rem;
+}
+}
 </style>
 </head>
+
 <body>
-<h1>✂ NEW SHALIMAR TAILOR ✂</h1>
-<p>Premium Men's & Women's Tailoring</p>
 
-<p>📍 In Front of Ganesh Sweets, Keshari Complex,<br>
-Bilaspur, Chhattisgarh</p>
+<header>
+<h1>NEW SHALIMAR TAILORS</h1>
+<p>Perfect Fit • Premium Stitching • Trusted Tailoring</p>
+</header>
 
-<p>📞 9617375960</p>
+<section class="hero">
+<h1>Custom Tailoring For Everyone</h1>
+<p>Men • Women • Kids • Alterations</p>
 
-<p>🕒 11:00 AM – 9:30 PM</p>
+<a class="btn"
+href="https://wa.me/919617375960">
+Book on WhatsApp
+</a>
+</section>
 
-<a class="button" href="tel:9617375960">Call Now</a>
+<section>
+<h2>About Us</h2>
+
+<p style="text-align:center;">
+Welcome to New Shalimar Tailors, Bilaspur. We provide
+high-quality stitching, custom tailoring, alterations,
+uniforms, blouses, suits, shirts, pants and traditional wear
+with perfect fitting and timely delivery.
+</p>
+</section>
+
+<section>
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Men's Wear</h3>
+<p>Shirts, Pants, Suits, Blazers, Kurta Pajama.</p>
+</div>
+
+<div class="card">
+<h3>Women's Wear</h3>
+<p>Blouse, Kurti, Salwar Suit, Lehenga, Dresses.</p>
+</div>
+
+<div class="card">
+<h3>Kids Wear</h3>
+<p>School Uniforms, Party Wear, Traditional Wear.</p>
+</div>
+
+<div class="card">
+<h3>Alterations</h3>
+<p>Size Adjustment, Repair Work, Zip Replacement.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Why Choose Us?</h2>
+
+<div class="why">
+
+<div class="box">
+<h3>✔ Perfect Fitting</h3>
+</div>
+
+<div class="box">
+<h3>✔ Affordable Price</h3>
+</div>
+
+<div class="box">
+<h3>✔ Quality Stitching</h3>
+</div>
+
+<div class="box">
+<h3>✔ On-Time Delivery</h3>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Customer Reviews</h2>
+
+<div class="services">
+
+<div class="card">
+★★★★★
+<p>Excellent fitting and quality stitching.</p>
+</div>
+
+<div class="card">
+★★★★★
+<p>Best tailor shop in Bilaspur.</p>
+</div>
+
+<div class="card">
+★★★★★
+<p>Quick delivery and professional service.</p>
+</div>
+
+</div>
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p><strong>Phone:</strong> 9617375960</p>
+
+<p><strong>WhatsApp:</strong> 9617375960</p>
+
+<p><strong>Address:</strong><br>
+In Front of Ganesh Sweets,<br>
+Keshari Complex,<br>
+Bilaspur, Chhattisgarh
+</p>
+
+<p><strong>Opening Hours:</strong><br>
+11:00 AM - 9:30 PM
+</p>
+
+</section>
+
+<footer>
+© 2026 New Shalimar Tailors. All Rights Reserved.
+</footer>
+
 </body>
 </html>
